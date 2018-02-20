@@ -6,6 +6,11 @@
 
 /*
  * simple program calling fork and wait
+  The wait() function suspends execution of its calling process
+   until stat_loc information is available for a terminated child process, or a signal is received. 
+
+    On return from a
+     successful wait() call, the stat_loc area contains termination information about the process that exited as defined below.
  */
 int main(int argc, char **argv)
 {
